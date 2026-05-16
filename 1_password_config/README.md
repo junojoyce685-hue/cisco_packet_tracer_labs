@@ -180,18 +180,18 @@ Follow the same steps as above in 1. to navigate to Desktop -> Command Line. Res
 
 **NOTE: You can use any delimiter instead of " as long as it doesn't appear int the message, likewise, the message inside can be modified as per your wish**
 
-**COPY THE RUNNING CONFIG TO NON-VOLATILE MEMORY TO ENSURE PERSISTENCE OF CONFIG AFTER POWER STARTUP**
+**# COPY THE RUNNING CONFIG TO NON-VOLATILE MEMORY TO ENSURE PERSISTENCE OF CONFIG AFTER POWER STARTUP**
 
 #copy running-config startup-config
 
-**or simply : **
+**or simply :**
 
 #cop r st
 
 Then press Enter
 
 
-**ADDITIONAL CONFIG :**
+**# ADDITIONAL CONFIG :**
 
 
 **You can also configure clock on the router and switch using the following commands**
