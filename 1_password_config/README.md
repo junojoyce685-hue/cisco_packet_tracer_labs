@@ -174,6 +174,14 @@ Click on USB console on the Router and USB port on the Laptop [USB0 used here]. 
 
 Follow the same steps as above in 1. to navigate to Desktop -> Command Line. Rest of the steps are identical as well.
 
+**COPY THE RUNNING CONFIG TO NON-VOLATILE MEMORY TO ENSURE PERSISTENCE OF CONFIG AFTER POWER STARTUP**
+
+#copy running-config startup-config
+
+**or simply : **
+
+#cop r st
+
 
 **ADDITIONAL CONFIG :**
 
@@ -191,3 +199,4 @@ The write :
 #show clock 
 
 to view the changes made.
+
