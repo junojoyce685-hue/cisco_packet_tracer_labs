@@ -173,3 +173,21 @@ section
 Click on USB console on the Router and USB port on the Laptop [USB0 used here]. Click on Laptop
 
 Follow the same steps as above in 1. to navigate to Desktop -> Command Line. Rest of the steps are identical as well.
+
+
+**ADDITIONAL CONFIG :**
+
+
+**You can also configure clock on the router and switch using the following commands**
+
+
+**Note: Use these commands in privileged EXEC mode, identified by #**
+
+
+**Format :** #clock set HH:MM:SS Month Day Year
+
+The write :
+
+#show clock 
+
+to view the changes made.
