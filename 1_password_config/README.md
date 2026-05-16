@@ -174,6 +174,12 @@ Click on USB console on the Router and USB port on the Laptop [USB0 used here]. 
 
 Follow the same steps as above in 1. to navigate to Desktop -> Command Line. Rest of the steps are identical as well.
 
+**Add a Banner Message**
+
+#banner motd "Authorized access only!!! You've been warned!!!"
+
+**NOTE: You can use any delimiter instead of " as long as it doesn't appear int the message, likewise, the message inside can be modified as per your wish**
+
 **COPY THE RUNNING CONFIG TO NON-VOLATILE MEMORY TO ENSURE PERSISTENCE OF CONFIG AFTER POWER STARTUP**
 
 #copy running-config startup-config
@@ -181,6 +187,8 @@ Follow the same steps as above in 1. to navigate to Desktop -> Command Line. Res
 **or simply : **
 
 #cop r st
+
+Then press Enter
 
 
 **ADDITIONAL CONFIG :**
